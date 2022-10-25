@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+  border: none;
+}
+.wrapper {
+  height: 100vh;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2em;
+}
+.heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  margin-bottom: 1em;
+  opacity: 0.6;
+}
+.input__container {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 20%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+.current__color {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin-bottom: 1em;
+  opacity: 0.6;
+}
